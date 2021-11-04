@@ -16,12 +16,16 @@ li{
     display: inline-block;
 }
 
+.btn:focus{
+    box-shadow: none;
+}
+
 /* HEADER */
 
 /* Common in header */
 header{
     font-family: Helvetica, arial, sans-serif;
-    }
+}
 
 /* Upper header */
 .upper_header_wrapper{
@@ -34,11 +38,6 @@ header{
 }
 
 /* Lower header */
-.lower_header_wrapper{
-    height: 80px;
-    border: 1px solid blue;
-}
-
 .fa-bars{
     font-size: 1.8rem;
     color: #737373;
@@ -47,7 +46,27 @@ header{
     padding: .5rem 1.2rem;
 }
 
+.lens_logo{
+    width: 30px;
+    height: 30px;
+    margin-left: .5rem;
+}
+
+.navbar-nav{
+    gap: .3rem;
+}
+
 .chevron_down{
     width: 15px;
     height: 15px;
+}
+
+header .btn-dark{
+    border-radius: 30px;
+}
+
+/* Test */
+main{
+    height: 10000px;
+    background-color: red;
 }

@@ -14,7 +14,7 @@
     
     <!-- HEADER -->
 
-    <header>
+    <header class="fixed-top">
 
         <!-- Upper header -->
         <div class="upper_header_wrapper w-100 d-flex align-items-center">
@@ -32,12 +32,12 @@
         </div>
 
         <!-- Lower header -->
-        <nav class="lower_header_wrapper w-100 d-flex align-items-end pb-2 align-items-lg-center pb-lg-0">
+        <!-- <nav class="lower_header_wrapper w-100 d-flex align-items-end pb-2 align-items-lg-center pb-lg-0"> 
             <div class="container-fluid">
                 <div class="row justify-content-between justify-content-lg-start">
-                    <!-- Left lower header -->
+                    Left lower header -->
 
-                    <div class="col-2 col-lg-1">
+                 <!--   <div class="col-2 col-lg-1">
                         <div class="play_logo_wrapper w-100 h-100 d-flex justify-content-start align-items-center">
                             <img src="img/play_logo.svg" alt="Logo della Play Station">
                         </div>
@@ -84,9 +84,9 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> 
 
-                    <!-- Right lower header -->
+                    Right lower header 
                     <div class="offset-2 col-1 d-none d-lg-block">
                         <div class="header_link_wrapper w-100 h-100">
 
@@ -109,6 +109,54 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/play_logo.svg" alt="Logo della PlayStation">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giochi <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hardware <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servizi <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novità <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fai acquisti <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Supporto <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">My PlayStation <img class="chevron_down" src="img/chevron-down-solid.svg" alt="Freccetta verso il basso"></a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-dark">Accedi</button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img class="lens_logo" src="img/lens.svg" alt="Lente di ingrandimento"></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
