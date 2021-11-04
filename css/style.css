@@ -24,6 +24,19 @@ header .nav-link{
     box-shadow: none;
 }
 
+.no_background{
+    background: none;
+    color: white;
+}
+
+.no_border{
+    border: none;
+}
+
+h2{
+    font-size: 3rem;
+}
+
 /* HEADER */
 
 /* Common in header */
@@ -66,7 +79,7 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 
-/* Hover */
+/* Hover header*/
 .grey_arrow:hover{
     display: none;
 }
@@ -78,6 +91,48 @@ header .navbar-light .navbar-nav .nav-link {
 .grey_arrow:hover + .blue_arrow{
     display: inline-block;
 }
+
+/* MAIN */
+
+/* Common in main */
+main{
+    margin-top: 116px;
+}
+
+/* Jumbotron */
+.jumbo_wrapper{
+    height: 750px;    
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo_content{
+    height: 55%;
+    position: relative;
+}
+
+@media screen and (min-width: 992px){
+    .jumbo_paragraph{
+        max-width: 35%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .md_grow{
+        transform: scale(1.2);
+        margin-left: calc(var(--bs-gutter-x,.75rem) + 1rem);
+    }
+}
+
+.buy_now_wrapper{
+    position: absolute;
+    left: calc(var(--bs-gutter-x,.75rem) + 1rem);
+    bottom: 3rem;
+} /* per allineare col resto della card e far si che il paragrafo non sposti il bottone quando va a capo*/
+
+
 
 /* Test */
 main{
