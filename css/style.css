@@ -127,11 +127,29 @@ main{
     .lower_jumbo{
         bottom: 4rem;
     }
-}     
+}
+
+/* Images */
+.images_wrapper{
+    margin-top: 35px;
+}
+
+.images_wrapper .img-thumbnail{
+    border-color: #0072ce;
+    transform: scale(1);
+}
+
+.images_wrapper img{
+    border-radius: 20px;
+}
+
+.images_wrapper img:not(.img-thumbnail){
+    transform: scale(.95);
+}
 
 
 /* Test */
-main{
+/* main{
     height: 10000px;
     background-color: red;
-}
+} */
