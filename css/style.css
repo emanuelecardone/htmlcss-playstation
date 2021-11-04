@@ -37,6 +37,13 @@ h2{
     font-size: 3rem;
 }
 
+@media screen and (min-width: 576px){
+    [class*="_content"]{
+        width: 90%;
+        margin: auto;
+    }
+}
+
 /* HEADER */
 
 /* Common in header */
@@ -100,7 +107,7 @@ main{
 }
 
 /* Jumbotron */
-.jumbo_wrapper{
+.jumbo_main_wrapper{
     height: 950px;    
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -123,30 +130,33 @@ main{
 } /* Per non far spostare il pulsante quando il testo del paragrafo sopra va a capo,
      è in un container-fluid quindi sarà allineato a sinistra col resto del content */
 
-@media screen and (min-width: 992px){
-    .lower_jumbo{
-        bottom: 5rem;
-    }
-}
-
+     
 /* Images */
-.images_wrapper{
-    margin-top: 35px;
+.images_main_wrapper{
+    margin: 35px 0 150px
 }
 
-.images_wrapper .img-thumbnail{
+.images_main_wrapper .img-thumbnail{
     border-color: #0072ce;
     transform: scale(1);
 }
 
-.images_wrapper img{
+.images_main_wrapper img{
     border-radius: 20px;
 }
 
-.images_wrapper img:not(.img-thumbnail){
+.images_main_wrapper img:not(.img-thumbnail){
     transform: scale(.95);
 }
 
+/* Console */
+.blue_span{
+    color: #0072ce;
+}
+
+.console_wrapper h2{
+    font-size: 2.5rem;
+}
 
 /* Test */
 /* main{
