@@ -8,6 +8,14 @@ img{
     display: inline-block;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
 /* HEADER */
 
 /* Common in header */
@@ -37,4 +45,9 @@ header{
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     padding: .5rem 1.2rem;
+}
+
+.chevron_down{
+    width: 15px;
+    height: 15px;
 }
