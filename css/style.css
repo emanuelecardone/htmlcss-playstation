@@ -101,38 +101,28 @@ main{
 
 /* Jumbotron */
 .jumbo_wrapper{
-    height: 750px;    
+    height: 850px;    
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .jumbo_content{
     height: 55%;
-    position: relative;
 }
 
-@media screen and (min-width: 992px){
-    .jumbo_paragraph{
-        max-width: 35%;
-    }
+.jumbo_button_wrapper .btn{
+    border-radius: 30px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px){
-    .md_grow{
-        transform: scale(1.2);
-        margin-left: calc(var(--bs-gutter-x,.75rem) + 1rem);
-    }
-}
-
-.buy_now_wrapper{
+.lower_jumbo{
     position: absolute;
-    left: calc(var(--bs-gutter-x,.75rem) + 1rem);
-    bottom: 3rem;
-} /* per allineare col resto della card e far si che il paragrafo non sposti il bottone quando va a capo*/
-
-
+    bottom: 5rem; 
+} /* Per non far spostare il pulsante quando il testo del paragrafo sopra va a capo,
+     è in un container-fluid quindi sarà allineato a sinistra col resto del content */
+  
 
 /* Test */
 main{
