@@ -65,6 +65,20 @@ header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 
+
+/* Hover */
+.grey_arrow:hover{
+    display: none;
+}
+
+.blue_arrow{
+    display: none;
+}
+
+.grey_arrow:hover + .blue_arrow{
+    display: inline-block;
+}
+
 /* Test */
 main{
     height: 10000px;
