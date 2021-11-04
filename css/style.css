@@ -101,7 +101,7 @@ main{
 
 /* Jumbotron */
 .jumbo_wrapper{
-    height: 800px;    
+    height: 950px;    
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,13 +119,13 @@ main{
 
 .lower_jumbo{
     position: absolute;
-    bottom: 5rem; 
+    bottom: 6rem; 
 } /* Per non far spostare il pulsante quando il testo del paragrafo sopra va a capo,
      è in un container-fluid quindi sarà allineato a sinistra col resto del content */
 
 @media screen and (min-width: 992px){
     .lower_jumbo{
-        bottom: 4rem;
+        bottom: 5rem;
     }
 }
 
