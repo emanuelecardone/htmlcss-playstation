@@ -12,22 +12,12 @@ ul{
 li{
     display: inline-block;
 }
-header .nav-link{
-    color: black;
-}
 .btn{
     border-radius: 30px;
     padding: .5rem 1rem;
 }
 .btn:focus{
     box-shadow: none;
-}
-.no_background{
-    background: none;
-    color: white;
-}
-.no_border{
-    border: none;
 }
 h2{
     font-size: 3rem;
@@ -76,6 +66,17 @@ header{
 header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+.navbar-light .navbar-toggler{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 991px){
+    .navbar-light .navbar-toggler,
+    .navbar-light .navbar-brand{
+        position: relative;
+        top: .3rem;
+    }
+}
 
 /* Hover header*/
 .grey_arrow:hover{
@@ -100,11 +101,12 @@ main{
 /* Jumbotron */
 .jumbo_main_wrapper{   
     height: 750px;    
-    background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+}
+.jumbo_1{
+    background-image: url(../img/jumbo-bg.png);
 }
 /* Piccolo fix per gli schermi più grandi (il background non regge più e si ingrandisce coprendo la testa del tizio) */
 @media screen and (min-width: 2000px){
@@ -158,6 +160,17 @@ main{
         margin-bottom: 70px;
     }
 }
+
+/* Second Jumbotron */
+.jumbo_2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+.jumbo_2 .jumbo_content{
+    height: 100%;
+}
+
+
+
 
 
 /* Test */
