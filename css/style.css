@@ -221,6 +221,16 @@ main{
 .card_body_wrapper{
     gap: 24px;
 }
+@media screen and (min-width: 768px){
+    .card_body_wrapper{
+        gap: 5px;
+    }
+}
+@media screen and (min-width: 992px){
+    .card_body_wrapper{
+        gap: 15px;
+    }
+}
 
 .explore_main_wrapper h5{
     font-size: 45px;
