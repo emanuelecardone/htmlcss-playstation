@@ -55,7 +55,6 @@ h2{
 .common_bg{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 .no_opacity{
     opacity: 0;
@@ -130,6 +129,7 @@ main{
 .jumbo_1{
     background-image: url(../img/jumbo-bg.png);
     padding-top: 16rem;
+    background-position: top;
 }
 .jumbo_h2{
     font-size: 2.5rem;
@@ -184,6 +184,7 @@ main{
 /* Second Jumbotron */
 .jumbo_2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
 }
 .mt_25{
     margin-top: 25px;
@@ -288,8 +289,6 @@ main{
         padding: 6rem 0;
     }   
 }
-
-/* Discounts */
 
 /* PlayStation Now */
 .playnow_main_wrapper{
