@@ -100,7 +100,7 @@ main{
 
 /* Jumbotron */
 .jumbo_main_wrapper{   
-    height: 750px;    
+    height: 800px;    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -166,7 +166,7 @@ main{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .jumbo_2 .jumbo_content{
-    height: 100%;
+    height: 90%;
 }
 .mt_25{
     margin-top: 25px;
