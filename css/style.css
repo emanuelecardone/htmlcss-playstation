@@ -40,6 +40,9 @@ h2{
     background-color: #d9dadc;
     color: #2d64e6;
 }
+.light_btn_2{
+    background-color: #f5f5f5;
+}
 .no_background{
     background: none;
 }
@@ -274,11 +277,11 @@ main{
 .w_60{
     width: 60%;
 }
-.playplus_content_box{
+.common_plus_now_box{
     padding: 3rem 0;
 }
 @media screen and (min-width: 768px){
-    .playplus_content_box{
+    .common_plus_now_box{
         padding: 1rem 0;
     }
     .plus_bg{
@@ -289,13 +292,25 @@ main{
     } 
 }
 @media screen and (min-width: 992px){
-    .playplus_content_box{
+    .common_plus_now_box{
         padding: 6rem 0;
     }   
 }
 
 /* Discounts */
 
+/* PlayStation Now */
+.playnow_main_wrapper{
+    background-color: #161c3b;
+}
+@media screen and (min-width: 768px){
+    .plus_bg{
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-size: 50% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+    } 
+}
 
 
 /* Test */
