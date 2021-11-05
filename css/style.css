@@ -222,6 +222,32 @@ main{
     gap: 24px;
 }
 
+.explore_main_wrapper h5{
+    font-size: 45px;
+    margin-bottom: 28px;
+}
+@media screen and (min-width: 576px){
+    .explore_main_wrapper h5{
+        font-size: 35px;
+    }
+}
+.explore_main_wrapper p{
+    font-size: 21px;
+}
+.mb_50{
+    margin-bottom: 50px;
+}
+@media screen and (min-width:768px){
+    .h_md_40{
+        height: 40%;
+    }      
+    .h_md_60{
+        height: 60%;
+    }
+}
+
+
+
 /* PlayStation Plus */
 
 
