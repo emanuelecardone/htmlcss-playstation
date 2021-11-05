@@ -218,6 +218,11 @@ main{
     padding-left: 0;
 }
 
+.card_body_wrapper{
+    gap: 24px;
+}
+
+/* PlayStation Plus */
 
 
 /* Test */

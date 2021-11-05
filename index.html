@@ -488,40 +488,58 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Ho customizzato un po' le cards in questa sezione, divisa descrizione/titolo dal bottone dentro un wrapper con flex-column e justify-content-between
+                    per far si che i bottoni si trovino sempre allineati anche se un paragrafo ha una riga in meno
+                    Il wrapper prende il 100% dell'altezza totale della card (che prende il 100% della colonna)
+                    In questo modo il wrapper sbatterà sempre in fondo il pulsante a prescindere dal comportamento del paragrafo
+                    Ho poi usato un gap di 24px (lo stesso che gli da Bootstrap) per distaccare di nuovo descrizione/titolo dal bottone -->
                     <div class="col-12">
                         <div class="row">
                             <div class="col-12 col-md-4 ">
-                                <div class="explore_content_box">
-                                    <div class="card no_background no_border">
+                                <div class="explore_content_box h-100">
+                                    <div class="card h-100 no_background no_border">
                                         <img src="img/ps4-slim-homepage-image-block.jpg" class="card-img-top" alt="Immagine con PlayStation 4">
                                         <div class="card-body">
-                                          <h5 class="card-title fw-bolder">PlayStation 4</h5>
-                                          <p class="card-text">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-                                          <a href="#" class="btn btn-primary">Scopri di più</a>
+                                            <div class="card_body_wrapper h-100 d-flex flex-column justify-content-between align-items-start">
+                                                <div class="card_description">
+                                                    <h5 class="card-title fw-bolder">PlayStation 4</h5>
+                                                    <p class="card-text">Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Scopri di più</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-4 ">
-                                <div class="explore_content_box">
-                                    <div class="card no_background no_border">
+                                <div class="explore_content_box h-100">
+                                    <div class="card h-100 no_background no_border">
                                         <img src="img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="Immagine con PlayStation VR">
                                         <div class="card-body">
-                                          <h5 class="card-title fw-bolder">PlayStation VR</h5>
-                                          <p class="card-text">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                                          <a href="#" class="btn btn-primary">Scopri di più</a>
+                                            <div class="card_body_wrapper h-100 d-flex flex-column justify-content-between align-items-start">
+                                                <div class="card_description">
+                                                    <h5 class="card-title fw-bolder">PlayStation VR</h5>
+                                                    <p class="card-text">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Scopri di più</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>                    
                             </div>
                             <div class="col-12 col-md-4 ">
-                                <div class="explore_content_box">
-                                    <div class="card no_background no_border">
+                                <div class="explore_content_box h-100">
+                                    <div class="card h-100 no_background no_border">
                                         <img src="img/dualshock-4-listing-thumb.jpg" class="card-img-top" alt="Immagine con joystick PlayStation 4">
                                         <div class="card-body">
-                                          <h5 class="card-title fw-bolder">Accessori</h5>
-                                          <p class="card-text">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
-                                          <a href="#" class="btn btn-primary">Scopri di più</a>
+                                            <div class="card_body_wrapper h-100 d-flex flex-column justify-content-between align-items-start">
+                                                <div class="card_description">
+                                                    <h5 class="card-title fw-bolder">Accessori</h5>
+                                                    <p class="card-text">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Scopri di più</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>     
@@ -531,6 +549,9 @@
                 </div>
             </div>
         </div>
+
+        <!-- PlayStation Plus -->
+
     </main>
 
     <!-- FOOTER -->
