@@ -206,8 +206,17 @@ main{
 .my_35_25{
     margin: 35px 0 25px;
 }
+.pb_60{
+    padding-bottom: 60px;
+}
 
-
+/*Explore*/
+.mb_100{
+ margin-bottom: 100px;
+}
+.explore_main_wrapper .card-body{
+    padding-left: 0;
+}
 
 
 
