@@ -1,4 +1,5 @@
 /* COMMON */
+
 body{
     font-family: Arial, sans-serif;
 }
@@ -14,6 +15,10 @@ li{
 header .nav-link{
     color: black;
 }
+.btn{
+    border-radius: 30px;
+    padding: .5rem 1rem;
+}
 .btn:focus{
     box-shadow: none;
 }
@@ -27,11 +32,25 @@ header .nav-link{
 h2{
     font-size: 3rem;
 }
+.blue_color{
+    color: #0072ce;
+}
+.blue_border{
+    border-color: #0072ce;
+}
+.blue_btn{
+    background-color: #2d64e6;
+}
+
+
 /* HEADER */
+
+
 /* Common in header */
 header{
     font-family: Helvetica, arial, sans-serif;
 }
+
 /* Upper header */
 .upper_header_wrapper{
     height: 40px;
@@ -40,6 +59,7 @@ header{
 .sony_logo_box{
     width: 100px;
 }
+
 /* Lower header */
 .lens_logo{
     width: 30px;
@@ -47,18 +67,16 @@ header{
     margin-left: 1.2rem;
 }
 .navbar-nav{
-    gap: .3rem;
+    gap: .25rem;
 }
 .chevron_down{
     width: 15px;
     height: 15px;
 }
-header .btn-dark{
-    border-radius: 30px;
-}
 header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+
 /* Hover header*/
 .grey_arrow:hover{
     display: none;
@@ -69,7 +87,11 @@ header .navbar-light .navbar-nav .nav-link {
 .grey_arrow:hover + .blue_arrow{
     display: inline-block;
 }
+
+
 /* MAIN */
+
+
 /* Common in main */
 main{
     margin-top: 116px;
@@ -77,27 +99,36 @@ main{
 
 /* Jumbotron */
 .jumbo_main_wrapper{   
-    height: 950px;    
+    height: 750px;    
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
 }
+/* Piccolo fix per gli schermi più grandi (il background non regge più e si ingrandisce coprendo la testa del tizio) */
+@media screen and (min-width: 2000px){
+    .jumbo_main_wrapper{
+        height: 900px;
+    }
+}
 .jumbo_content{
     height: 75%;
 }
-.jumbo_button_wrapper .btn{
-    border-radius: 30px;
-}
-
 
 /* Images */
 .images_wrapper{
-    margin: 35px 0 150px;
+    margin: 35px 0 130px;
+}
+.mb_80{
+    margin-bottom: 80px;
+}
+@media screen and (min-width: 992px){
+    .mb_lg_100{
+        margin-bottom: 100px;
+    }
 }
 .images_wrapper .img-thumbnail{
-    border-color: #0072ce;
     transform: scale(1);
 }
 .images_wrapper img{
@@ -107,15 +138,27 @@ main{
     transform: scale(.95);
 }
 
-
 /* Console */
-.blue_span{
-    color: #0072ce;
-}
-
-.console_wrapper h2{
+.console_main_wrapper h2{
     font-size: 2.5rem;
 }
+@media screen and (min-width: 768px){
+    .w_md_65{
+        width: 65%;
+    }
+    .mb_md_50{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 992px){
+    .w_lg_75{
+        width: 75%;
+    }
+    .mb_lg_70{
+        margin-bottom: 70px;
+    }
+}
+
 
 /* Test */
 /* main{
