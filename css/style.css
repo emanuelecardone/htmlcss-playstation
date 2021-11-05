@@ -127,20 +127,15 @@ main{
 }
 
 /* Jumbotron */
-.jumbo_main_wrapper{   
-    height: 800px;
-}
 .jumbo_1{
     background-image: url(../img/jumbo-bg.png);
+    padding-top: 16rem;
 }
-/* Piccolo fix per gli schermi più grandi (il background non regge più e si ingrandisce coprendo la testa del tizio) */
-@media screen and (min-width: 2000px){
-    .jumbo_main_wrapper{
-        height: 900px;
-    }
+.jumbo_h2{
+    font-size: 2.5rem;
 }
-.jumbo_content{
-    height: 75%;
+.jumbo_font{
+    font-size: 16.5px;
 }
 
 /* Images */
@@ -189,9 +184,6 @@ main{
 /* Second Jumbotron */
 .jumbo_2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-}
-.jumbo_2 .jumbo_content{
-    height: 90%;
 }
 .mt_25{
     margin-top: 25px;
@@ -304,7 +296,7 @@ main{
     background-color: #161c3b;
 }
 @media screen and (min-width: 768px){
-    .plus_bg{
+    .now_bg{
         background-image: url(../img/ps-now-april-featured-image-block.png);
         background-size: 50% 100%;
         background-repeat: no-repeat;
