@@ -22,6 +22,11 @@ li{
 h2{
     font-size: 3rem;
 }
+@media screen and (min-width: 576px){
+    .smaller_h2{
+    font-size: 2.7rem;
+    }
+}
 .blue_color{
     color: #0072ce;
 }
@@ -288,6 +293,8 @@ main{
         padding: 6rem 0;
     }   
 }
+
+/* Discounts */
 
 
 
