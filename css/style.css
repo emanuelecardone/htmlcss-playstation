@@ -31,6 +31,12 @@ h2{
 .blue_btn{
     background-color: #2d64e6;
 }
+.no_background{
+    background: none;
+}
+.no_border{
+    border: none;
+}
 
 
 /* HEADER */
@@ -175,6 +181,30 @@ main{
     .jumbo_2{
         margin-top: 40px;
     }
+}
+
+/* New Videogames */
+.new_videogames_main_wrapper{
+    background-color: #1f1f1f;
+    color: white;
+}
+.new_videogames_main_wrapper .card-body{
+    padding: .5rem 0;
+}
+.new_videogames_main_wrapper .card-title{
+    font-size: .95rem;
+}
+.new_videogames_main_wrapper .card-img-top{
+    border-radius: 20px;
+}
+.new_videogames_main_wrapper h3{
+    font-size: 35px;
+}
+.new_videogames_main_wrapper h4{
+    font-size: 25px;
+}
+.my_35_25{
+    margin: 35px 0 25px;
 }
 
 
