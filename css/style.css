@@ -31,13 +31,27 @@ h2{
 .blue_btn{
     background-color: #2d64e6;
 }
+.light_btn{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
 .no_background{
     background: none;
 }
 .no_border{
     border: none;
 }
-
+.card-body{
+    padding-left: 0;
+}
+.common_bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.no_opacity{
+    opacity: 0;
+}
 
 /* HEADER */
 
@@ -106,10 +120,7 @@ main{
 
 /* Jumbotron */
 .jumbo_main_wrapper{   
-    height: 800px;    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 800px;
 }
 .jumbo_1{
     background-image: url(../img/jumbo-bg.png);
@@ -214,10 +225,6 @@ main{
 .mb_100{
  margin-bottom: 100px;
 }
-.explore_main_wrapper .card-body{
-    padding-left: 0;
-}
-
 .card_body_wrapper{
     gap: 24px;
 }
@@ -231,7 +238,6 @@ main{
         gap: 15px;
     }
 }
-
 .explore_main_wrapper h5{
     font-size: 45px;
     margin-bottom: 28px;
@@ -256,9 +262,33 @@ main{
     }
 }
 
-
-
 /* PlayStation Plus */
+.playplus_main_wrapper{
+    background-color: #bebcbb;
+}
+.w_60{
+    width: 60%;
+}
+[class^="playplus_content_box"]{
+    padding: 3rem 0;
+}
+@media screen and (min-width: 768px){
+    [class^="playplus_content_box"]{
+        padding: 1rem 0;
+    }
+    .plus_bg{
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: 50% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+    } 
+}
+@media screen and (min-width: 992px){
+    [class^="playplus_content_box"]{
+        padding: 5.8rem 0;
+    }   
+}
+
 
 
 /* Test */
