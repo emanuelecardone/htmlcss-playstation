@@ -1,113 +1,82 @@
 /* COMMON */
-
 body{
     font-family: Arial, sans-serif;
 }
-
 img{
     display: inline-block;
 }
-
 ul{
     list-style-type: none;
 }
-
 li{
     display: inline-block;
 }
-
 header .nav-link{
     color: black;
 }
-
 .btn:focus{
     box-shadow: none;
 }
-
 .no_background{
     background: none;
     color: white;
 }
-
 .no_border{
     border: none;
 }
-
 h2{
     font-size: 3rem;
 }
-
-@media screen and (min-width: 576px){
-    [class*="_content"]{
-        width: 90%;
-        margin: auto;
-    }
-}
-
 /* HEADER */
-
 /* Common in header */
 header{
     font-family: Helvetica, arial, sans-serif;
 }
-
 /* Upper header */
 .upper_header_wrapper{
     height: 40px;
     background-color: black;
 }
-
 .sony_logo_box{
     width: 100px;
 }
-
 /* Lower header */
 .lens_logo{
     width: 30px;
     height: 30px;
     margin-left: 1.2rem;
 }
-
 .navbar-nav{
     gap: .3rem;
 }
-
 .chevron_down{
     width: 15px;
     height: 15px;
 }
-
 header .btn-dark{
     border-radius: 30px;
 }
-
 header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
-
-
 /* Hover header*/
 .grey_arrow:hover{
     display: none;
 }
-
 .blue_arrow{
     display: none;
 }
-
 .grey_arrow:hover + .blue_arrow{
     display: inline-block;
 }
-
 /* MAIN */
-
 /* Common in main */
 main{
     margin-top: 116px;
 }
 
 /* Jumbotron */
-.jumbo_main_wrapper{
+.jumbo_main_wrapper{   
     height: 950px;    
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -115,39 +84,29 @@ main{
     background-position: center;
     position: relative;
 }
-
 .jumbo_content{
-    height: 55%;
+    height: 75%;
 }
-
 .jumbo_button_wrapper .btn{
     border-radius: 30px;
 }
 
-.lower_jumbo{
-    position: absolute;
-    bottom: 6rem; 
-} /* Per non far spostare il pulsante quando il testo del paragrafo sopra va a capo,
-     è in un container-fluid quindi sarà allineato a sinistra col resto del content */
 
-     
 /* Images */
-.images_main_wrapper{
-    margin: 35px 0 150px
+.images_wrapper{
+    margin: 35px 0 150px;
 }
-
-.images_main_wrapper .img-thumbnail{
+.images_wrapper .img-thumbnail{
     border-color: #0072ce;
     transform: scale(1);
 }
-
-.images_main_wrapper img{
+.images_wrapper img{
     border-radius: 20px;
 }
-
-.images_main_wrapper img:not(.img-thumbnail){
+.images_wrapper img:not(.img-thumbnail){
     transform: scale(.95);
 }
+
 
 /* Console */
 .blue_span{
