@@ -1,5 +1,6 @@
 /* COMMON */
 
+/* Custom styles */
 body{
     font-family: Arial, sans-serif;
 }
@@ -19,27 +20,6 @@ li a{
 h2{
     font-size: 3rem;
 }
-@media screen and (min-width: 576px){
-    .smaller_h2{
-    font-size: 2.7rem;
-    }
-}
-.blue_color{
-    color: #0072ce;
-}
-.blue_border{
-    border-color: #0072ce;
-}
-.blue_btn{
-    background-color: #2d64e6;
-}
-.light_btn{
-    background-color: #d9dadc;
-    color: #2d64e6;
-}
-.light_btn_2{
-    background-color: #f5f5f5;
-}
 .no_background{
     background: none;
 }
@@ -57,7 +37,54 @@ h2{
     opacity: 0;
 }
 
+/* Custom colors */
+.blue_color{
+    color: #0072ce;
+}
+.blue_border{
+    border-color: #0072ce;
+}
+.blue_btn{
+    background-color: #2d64e6;
+}
+.light_btn{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+.light_btn_2{
+    background-color: #f5f5f5;
+}
 
+/* Custom margin/padding/size */
+.w_60{
+    width: 60%;
+}
+.my_35_25{
+    margin: 35px 0 25px;
+}
+.mt_25{
+    margin-top: 25px;
+}
+.mt_100{
+    margin-top: 100px;
+}
+.mb_50{
+    margin-bottom: 50px;
+}
+.mb_80{
+    margin-bottom: 80px;
+}
+.mb_100{
+    margin-bottom: 100px;
+   }
+.pt_80{
+    padding-top: 80px;
+}
+.pb_60{
+    padding-bottom: 60px;
+}
+    
+    
 /* HEADER */
 
 
@@ -98,24 +125,6 @@ header .navbar-light .navbar-nav .nav-link {
 .navbar-light .navbar-toggler{
     box-shadow: none;
 }
-@media screen and (max-width: 991px){
-    .navbar-light .navbar-toggler,
-    .navbar-light .navbar-brand{
-        position: relative;
-        top: .3rem;
-    }
-}
-
-/* Hover header*/
-.grey_arrow:hover{
-    display: none;
-}
-.blue_arrow{
-    display: none;
-}
-.grey_arrow:hover + .blue_arrow{
-    display: inline-block;
-}
 
 
 /* MAIN */
@@ -143,14 +152,6 @@ main{
 .images_wrapper{
     margin: 35px 0 130px;
 }
-.mb_80{
-    margin-bottom: 80px;
-}
-@media screen and (min-width: 992px){
-    .mb_lg_100{
-        margin-bottom: 100px;
-    }
-}
 .images_wrapper .img-thumbnail{
     transform: scale(1);
 }
@@ -162,45 +163,16 @@ main{
     transform: scale(.95);
 }
 
-/* Hover images */
-.images_wrapper img:hover{
-    position: relative;
-    bottom: .3rem;
-}
-
 /* Console */
 .console_main_wrapper h2{
     font-size: 2.5rem;
 }
-@media screen and (min-width: 768px){
-    .w_md_65{
-        width: 65%;
-    }
-    .mb_md_50{
-        margin-bottom: 50px;
-    }
-}
-@media screen and (min-width: 992px){
-    .w_lg_75{
-        width: 75%;
-    }
-    .mb_lg_70{
-        margin-bottom: 70px;
-    }
-}
+
 
 /* Second Jumbotron */
 .jumbo_2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
-}
-.mt_25{
-    margin-top: 25px;
-}
-@media screen and (min-width: 768px){
-    .jumbo_2{
-        margin-top: 40px;
-    }
 }
 
 /* New Videogames */
@@ -223,79 +195,25 @@ main{
 .new_videogames_main_wrapper h4{
     font-size: 25px;
 }
-.my_35_25{
-    margin: 35px 0 25px;
-}
-.pb_60{
-    padding-bottom: 60px;
-}
 
 /*Explore*/
-.mb_100{
- margin-bottom: 100px;
-}
 .card_body_wrapper{
     gap: 24px;
-}
-@media screen and (min-width: 768px){
-    .card_body_wrapper{
-        gap: 5px;
-    }
-}
-@media screen and (min-width: 992px){
-    .card_body_wrapper{
-        gap: 15px;
-    }
-}
-.explore_main_wrapper h5{
-    font-size: 45px;
-    margin-bottom: 28px;
-}
-@media screen and (min-width: 576px){
-    .explore_main_wrapper h5{
-        font-size: 35px;
-    }
 }
 .explore_main_wrapper p{
     font-size: 21px;
 }
-.mb_50{
-    margin-bottom: 50px;
-}
-@media screen and (min-width:768px){
-    .h_md_40{
-        height: 40%;
-    }      
-    .h_md_60{
-        height: 60%;
-    }
+.explore_main_wrapper h5{
+    font-size: 45px;
+    margin-bottom: 28px;
 }
 
 /* PlayStation Plus */
 .playplus_main_wrapper{
     background-color: #bebcbb;
 }
-.w_60{
-    width: 60%;
-}
 .common_plus_now_box{
     padding: 3rem 0;
-}
-@media screen and (min-width: 768px){
-    .common_plus_now_box{
-        padding: 1rem 0;
-    }
-    .plus_bg{
-        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-        background-size: 50% 100%;
-        background-repeat: no-repeat;
-        background-position: right;
-    } 
-}
-@media screen and (min-width: 992px){
-    .common_plus_now_box{
-        padding: 6rem 0;
-    }   
 }
 
 /* Discounts */
@@ -307,23 +225,8 @@ main{
 .playnow_main_wrapper{
     background-color: #161c3b;
 }
-@media screen and (min-width: 768px){
-    .now_bg{
-        background-image: url(../img/ps-now-april-featured-image-block.png);
-        background-size: 50% 100%;
-        background-repeat: no-repeat;
-        background-position: right;
-    } 
-}
 
 /* Social */
-@media screen and (min-width: 768px){
-    .social_sub_wrapper{
-        width: 576px;
-        max-width: 576px;
-        margin: auto;
-    } /* Modificato il contenitore secondario per far rimanere la width della riga delle icone sempre uguale come da screenshot */
-}
 .social_main_wrapper h3{
     font-size: 30px;
 }
@@ -336,16 +239,10 @@ main{
 footer{
     background-color: #00439c;
 }
-.mt_100{
-    margin-top: 100px;
-}
 
 /* Country/Logo */
 .footer_logo_1{
     width: 100px;
-}
-.pt_80{
-    padding-top: 80px;
 }
 .footer_country_logo{
     width: 20px;
@@ -371,4 +268,127 @@ footer ul a:hover{
 /* Copyright */
 .sie_logo{
     width: 140px;
+}
+
+
+/* HOVER */
+
+
+/* Hover header*/
+.grey_arrow:hover{
+    display: none;
+}
+.blue_arrow{
+    display: none;
+}
+.grey_arrow:hover + .blue_arrow{
+    display: inline-block;
+}
+
+/* Hover images */
+.images_wrapper img:hover{
+    position: relative;
+    bottom: .3rem;
+}
+
+
+/* MEDIA */
+
+
+/* Media common margin/padding/size */
+@media screen and (min-width: 768px){
+    .w_md_65{
+        width: 65%;
+    }
+    .h_md_40{
+        height: 40%;
+    }      
+    .h_md_60{
+        height: 60%;
+    }
+    .mt_md_40{
+        margin-top: 40px;
+    }
+    .mb_md_50{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 992px){
+    .w_lg_75{
+        width: 75%;
+    }
+    .mb_lg_70{
+        margin-bottom: 70px;
+    }
+    .mb_lg_100{
+        margin-bottom: 100px;
+    }
+}
+
+/* Media styles */
+@media screen and (min-width: 576px){
+    .smaller_h2{
+    font-size: 2.7rem;
+    }
+    .explore_main_wrapper h5{
+        font-size: 35px;
+    }
+}
+
+/* Media nav */
+@media screen and (max-width: 991px){
+    .navbar-light .navbar-toggler,
+    .navbar-light .navbar-brand{
+        position: relative;
+        top: .3rem;
+    }
+}
+
+/* Media Explore */
+@media screen and (min-width: 768px){
+    .card_body_wrapper{
+        gap: 5px;
+    }
+}
+@media screen and (min-width: 992px){
+    .card_body_wrapper{
+        gap: 15px;
+    }
+}
+
+/* Media PS Plus */
+@media screen and (min-width: 768px){
+    .common_plus_now_box{
+        padding: 1rem 0;
+    }
+    .plus_bg{
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: 50% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+    } 
+}
+@media screen and (min-width: 992px){
+    .common_plus_now_box{
+        padding: 6rem 0;
+    }   
+}
+
+/* Media PS Now */
+@media screen and (min-width: 768px){
+    .now_bg{
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-size: 50% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+    } 
+}
+
+/* Media Social */
+@media screen and (min-width: 768px){
+    .social_sub_wrapper{
+        width: 576px;
+        max-width: 576px;
+        margin: auto;
+    } /* Modificato il contenitore secondario per far rimanere la width della riga delle icone sempre uguale come da screenshot */
 }
