@@ -315,6 +315,7 @@ main{
 @media screen and (min-width: 768px){
     .social_sub_wrapper{
         width: 576px;
+        max-width: 576px;
         margin: auto;
     } /* Modificato il contenitore secondario per far rimanere la width della riga delle icone sempre uguale come da screenshot */
 }
@@ -328,7 +329,6 @@ main{
 /* Common in footer */
 footer{
     background-color: #00439c;
-    height: 1000px;
 }
 .mt_100{
     margin-top: 100px;
@@ -347,9 +347,16 @@ footer{
        Se usavo il globo come list-style-img e gli cambiavo il font non si allineava a sinistra con il container */
 footer a{
     color: white;
+}
+footer ul{
+    margin-bottom: .5rem;
+}
+footer ul a{
     line-height: 35px;
 }
-
+.sie_logo{
+    width: 140px;
+}
 
 /* Test */
 /* main{
