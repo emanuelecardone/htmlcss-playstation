@@ -361,12 +361,9 @@ footer ul{
 footer ul a{
     line-height: 35px;
 }
+footer ul a:hover{
+    color: white;
+} /* Per evitare il blu che renderebbe il link dello stesso colore dello sfondo quindi poco visibile*/
 .sie_logo{
     width: 140px;
 }
-
-/* Test */
-/* main{
-    height: 10000px;
-    background-color: red;
-} */
