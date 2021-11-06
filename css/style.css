@@ -9,9 +9,6 @@ img{
 ul{
     list-style-type: none;
 }
-li{
-    display: inline-block;
-}
 .btn{
     border-radius: 30px;
     padding: .5rem 1rem;
@@ -78,6 +75,9 @@ header{
 }
 
 /* Lower header */
+header li{
+    display: inline-block;
+}
 .lens_logo{
     width: 30px;
     height: 30px;
@@ -330,6 +330,21 @@ footer{
 .mt_100{
     margin-top: 100px;
 }
+.footer_logo_1{
+    width: 100px;
+}
+.pt_80{
+    padding-top: 80px;
+}
+.footer_country_logo{
+    width: 20px;
+    vertical-align: -15%;
+    margin-right: calc(2rem - 24px);
+} /* Per allineare lo span con la ul (2rem è il padding della ul di Bootstrap, 20px del logo e 4px dello spacing dell'inline block */
+
+
+
+
 /* Test */
 /* main{
     height: 10000px;
