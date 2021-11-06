@@ -290,6 +290,11 @@ main{
     }   
 }
 
+/* Discounts */
+.discounts_main_wrapper p{
+    font-size: 22px;
+}
+
 /* PlayStation Now */
 .playnow_main_wrapper{
     background-color: #161c3b;
@@ -303,7 +308,27 @@ main{
     } 
 }
 
+/* Social */
+@media screen and (min-width: 768px){
+    .social_sub_wrapper{
+        width: 576px;
+        margin: auto;
+    } /* Modificato il contenitore secondario per far rimanere la width della riga delle icone sempre uguale come da screenshot */
+}
+.social_main_wrapper h3{
+    font-size: 30px;
+}
 
+/* FOOTER */
+
+
+/* Common in footer */
+footer{
+    background-color: #00439c;
+}
+.mt_100{
+    margin-top: 100px;
+}
 /* Test */
 /* main{
     height: 10000px;
