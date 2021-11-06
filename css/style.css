@@ -325,6 +325,7 @@ main{
 /* Common in footer */
 footer{
     background-color: #00439c;
+    height: 1000px;
 }
 .mt_100{
     margin-top: 100px;
