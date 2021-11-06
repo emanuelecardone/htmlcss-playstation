@@ -158,9 +158,16 @@ main{
 }
 .images_wrapper img{
     border-radius: 20px;
+    cursor: pointer;
 }
 .images_wrapper img:not(.img-thumbnail){
     transform: scale(.95);
+}
+
+/* Hover images */
+.images_wrapper img:hover{
+    position: relative;
+    bottom: .3rem;
 }
 
 /* Console */
