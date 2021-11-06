@@ -60,12 +60,14 @@ h2{
     opacity: 0;
 }
 
+
 /* HEADER */
 
 
 /* Common in header */
 header{
     font-family: Helvetica, arial, sans-serif;
+    height: 116px;
 }
 
 /* Upper header */
@@ -73,7 +75,7 @@ header{
     height: 40px;
     background-color: black;
 }
-.sony_logo_box{
+.sony_header_logo{
     width: 100px;
 }
 
@@ -329,6 +331,7 @@ main{
 .social_main_wrapper h3{
     font-size: 30px;
 }
+
 
 /* FOOTER */
 
