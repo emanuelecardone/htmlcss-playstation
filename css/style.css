@@ -168,7 +168,6 @@ main{
     font-size: 2.5rem;
 }
 
-
 /* Second Jumbotron */
 .jumbo_2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -330,9 +329,6 @@ footer ul a:hover{
     .smaller_h2{
     font-size: 2.7rem;
     }
-    .explore_main_wrapper h5{
-        font-size: 35px;
-    }
 }
 
 /* Media nav */
@@ -348,6 +344,9 @@ footer ul a:hover{
 @media screen and (min-width: 768px){
     .card_body_wrapper{
         gap: 5px;
+    }
+    .explore_main_wrapper h5{
+        font-size: 35px;
     }
 }
 @media screen and (min-width: 992px){
