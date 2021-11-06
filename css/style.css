@@ -340,6 +340,8 @@ footer{
 .mt_100{
     margin-top: 100px;
 }
+
+/* Country/Logo */
 .footer_logo_1{
     width: 100px;
 }
@@ -352,6 +354,8 @@ footer{
     margin-right: calc(2rem - 24px);
 }   /* Per allineare lo span con la ul (2rem è il padding della ul di Bootstrap, 20px del logo e 4px dello spacing dell'inline block) 
        Se usavo il globo come list-style-img e gli cambiavo il font non si allineava a sinistra con il container */
+
+/* Links */       
 footer a{
     color: white;
 }
@@ -364,6 +368,8 @@ footer ul a{
 footer ul a:hover{
     color: white;
 } /* Per evitare il blu che renderebbe il link dello stesso colore dello sfondo quindi poco visibile*/
+
+/* Copyright */
 .sie_logo{
     width: 140px;
 }
