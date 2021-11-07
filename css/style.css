@@ -3,6 +3,7 @@
 /* Custom styles */
 body{
     font-family: Arial, sans-serif;
+    
 }
 ul{
     list-style-type: none;
@@ -18,8 +19,21 @@ li a{
     box-shadow: none;
 }
 h2{
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
+h3{
+    font-size: 2.45rem;
+}
+h4{
+    font-size: 2.25rem;
+}
+h5{
+    font-size: 2rem;
+}
+h6{
+    font-size: 1.5rem;
+}
+    
 .no_background{
     background: none;
 }
@@ -99,7 +113,7 @@ header{
     height: 40px;
     background-color: black;
 }
-.sony_header_logo{
+.sony_top_logo{
     width: 100px;
 }
 
@@ -109,7 +123,6 @@ header li{
 }
 .lens_logo{
     width: 30px;
-    height: 30px;
     margin-left: 1.2rem;
 }
 .navbar-nav{
@@ -119,9 +132,7 @@ header li{
     width: 15px;
     height: 15px;
 }
-header .navbar-light .navbar-nav .nav-link {
-    color: black;
-}
+
 .navbar-light .navbar-toggler{
     box-shadow: none;
 }
@@ -140,9 +151,6 @@ main{
     background-image: url(../img/jumbo-bg.png);
     padding-top: 16rem;
     background-position: top;
-}
-.jumbo_h2{
-    font-size: 2.5rem;
 }
 .jumbo_font{
     font-size: 16.5px;
@@ -164,8 +172,8 @@ main{
 }
 
 /* Console */
-.console_main_wrapper h2{
-    font-size: 2.5rem;
+.console_small_img_box span{
+    font-size: 14.5px;
 }
 
 /* Second Jumbotron */
@@ -182,29 +190,13 @@ main{
 .new_videogames_main_wrapper .card-body{
     padding: .5rem 0;
 }
-.new_videogames_main_wrapper .card-title{
-    font-size: .95rem;
-}
 .new_videogames_main_wrapper .card-img-top{
     border-radius: 20px;
 }
-.new_videogames_main_wrapper h3{
-    font-size: 35px;
-}
-.new_videogames_main_wrapper h4{
-    font-size: 25px;
-}
 
 /*Explore*/
-.card_body_wrapper{
-    gap: 24px;
-}
 .explore_main_wrapper p{
-    font-size: 21px;
-}
-.explore_main_wrapper h5{
-    font-size: 45px;
-    margin-bottom: 28px;
+    font-size: 18px;
 }
 
 /* PlayStation Plus */
@@ -225,11 +217,6 @@ main{
     background-color: #161c3b;
 }
 
-/* Social */
-.social_main_wrapper h3{
-    font-size: 30px;
-}
-
 
 /* FOOTER */
 
@@ -238,6 +225,8 @@ main{
 footer{
     background-color: #00439c;
 }
+
+
 
 /* Country/Logo */
 .footer_logo_1{
@@ -270,6 +259,7 @@ footer ul a:hover{
 }
 
 
+
 /* HOVER */
 
 
@@ -299,17 +289,17 @@ footer ul a:hover{
     .w_md_65{
         width: 65%;
     }
-    .h_md_40{
-        height: 40%;
-    }      
-    .h_md_60{
-        height: 60%;
-    }
     .mt_md_40{
         margin-top: 40px;
     }
+    .mb_md_30{
+        margin-bottom: 30px;
+    }
     .mb_md_50{
         margin-bottom: 50px;
+    }
+    .mb_md_80{
+        margin-bottom: 80px;
     }
 }
 @media screen and (min-width: 992px){
@@ -324,34 +314,12 @@ footer ul a:hover{
     }
 }
 
-/* Media styles */
-@media screen and (min-width: 576px){
-    .smaller_h2{
-    font-size: 2.7rem;
-    }
-}
-
 /* Media nav */
 @media screen and (max-width: 991px){
     .navbar-light .navbar-toggler,
     .navbar-light .navbar-brand{
         position: relative;
         top: .3rem;
-    }
-}
-
-/* Media Explore */
-@media screen and (min-width: 768px){
-    .card_body_wrapper{
-        gap: 5px;
-    }
-    .explore_main_wrapper h5{
-        font-size: 35px;
-    }
-}
-@media screen and (min-width: 992px){
-    .card_body_wrapper{
-        gap: 15px;
     }
 }
 
