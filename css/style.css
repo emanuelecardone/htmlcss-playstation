@@ -159,7 +159,7 @@ main{
 /* Jumbotron */
 .jumbo_1{
     background-image: url(../img/jumbo-bg.png);
-    padding-top: 16rem;
+    padding-top: 15rem;
     background-position: top;
 }
 
@@ -298,9 +298,6 @@ footer ul a:hover{
     .mb_lg_70{
         margin-bottom: 70px;
     }
-    .mb_lg_100{
-        margin-bottom: 100px;
-    }
 }
 
 /* Media nav */
@@ -312,7 +309,7 @@ footer ul a:hover{
     }
 }
 
-/* Media PS Plus */
+/* Media PS Plus/Now */
 @media screen and (min-width: 768px){
     .common_plus_now_box{
         padding: 1rem 0;
@@ -322,22 +319,18 @@ footer ul a:hover{
         background-size: 50% 100%;
         background-repeat: no-repeat;
         background-position: right;
-    } 
-}
-@media screen and (min-width: 992px){
-    .common_plus_now_box{
-        padding: 6rem 0;
-    }   
-}
-
-/* Media PS Now */
-@media screen and (min-width: 768px){
+    }
     .now_bg{
         background-image: url(../img/ps-now-april-featured-image-block.png);
         background-size: 50% 100%;
         background-repeat: no-repeat;
         background-position: right;
-    } 
+    }  
+}
+@media screen and (min-width: 992px){
+    .common_plus_now_box{
+        padding: 5rem 0;
+    }   
 }
 
 /* Media Social */
