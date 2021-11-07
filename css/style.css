@@ -51,15 +51,15 @@ h6{
 .no_border{
     border: none;
 }
+.no_opacity{
+    opacity: 0;
+}
 .card-body{
     padding-left: 0;
 }
 .common_bg{
     background-repeat: no-repeat;
     background-size: cover;
-}
-.no_opacity{
-    opacity: 0;
 }
 
 /* Custom colors */
@@ -125,7 +125,7 @@ header{
     background-color: black;
 }
 .sony_top_logo{
-    width: 100px;
+    width: 75px;
 }
 
 /* Lower header */
@@ -133,17 +133,16 @@ header li{
     display: inline-block;
 }
 .lens_logo{
-    width: 30px;
-    margin-left: 1.2rem;
+    width: 25px;
+    
 }
 .navbar-nav{
-    gap: .25rem;
+    gap: .2rem;
 }
 .chevron_down{
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    margin-left: .2rem;
 }
-
 .navbar-light .navbar-toggler{
     box-shadow: none;
 }
@@ -179,11 +178,6 @@ main{
     transform: scale(.95);
 }
 
-/* Console */
-.console_small_img_box span{
-    font-size: 14.5px;
-}
-
 /* Second Jumbotron */
 .jumbo_2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -193,7 +187,6 @@ main{
 /* New Videogames */
 .new_videogames_main_wrapper{
     background-color: #1f1f1f;
-    color: white;
 }
 .new_videogames_main_wrapper .card-body{
     padding: .5rem 0;
@@ -243,9 +236,6 @@ footer ul{
 footer ul a{
     line-height: 35px;
 }
-footer ul a:hover{
-    color: white;
-} /* Per evitare il blu che renderebbe il link dello stesso colore dello sfondo quindi poco visibile*/
 
 /* Copyright */
 .sie_logo{
@@ -272,6 +262,12 @@ footer ul a:hover{
     position: relative;
     bottom: .3rem;
 }
+
+/* Hover footer */
+footer ul a:hover{
+    color: white;
+} /* Per evitare il blu che renderebbe il link dello stesso colore dello sfondo quindi poco visibile*/
+
 
 
 /* MEDIA */
