@@ -33,11 +33,17 @@ h5{
 h6{
     font-size: 1.5rem;
 }
+.fs_14{
+    font-size: 14.5px;
+}
 .fs_15{
-    font-size: 15px;
+    font-size: 15.5px;
 }
 .fs_18{
     font-size: 18px;
+}
+.fs_20{
+    font-size: 20px;
 }  
 .no_background{
     background: none;
