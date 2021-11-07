@@ -178,6 +178,11 @@ main{
     transform: scale(.95);
 }
 
+/* Console */
+.console_deselected_img_box img{
+    filter:;
+}
+
 /* Second Jumbotron */
 .jumbo_2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -267,7 +272,6 @@ footer ul a{
 footer ul a:hover{
     color: white;
 } /* Per evitare il blu che renderebbe il link dello stesso colore dello sfondo quindi poco visibile*/
-
 
 
 /* MEDIA */
