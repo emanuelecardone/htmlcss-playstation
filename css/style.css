@@ -33,7 +33,12 @@ h5{
 h6{
     font-size: 1.5rem;
 }
-    
+.fs_15{
+    font-size: 15px;
+}
+.fs_18{
+    font-size: 18px;
+}  
 .no_background{
     background: none;
 }
@@ -152,9 +157,6 @@ main{
     padding-top: 16rem;
     background-position: top;
 }
-.jumbo_font{
-    font-size: 16.5px;
-}
 
 /* Images */
 .images_wrapper{
@@ -194,27 +196,15 @@ main{
     border-radius: 20px;
 }
 
-/*Explore*/
-.explore_main_wrapper p{
-    font-size: 18px;
-}
-
-/* PlayStation Plus */
+/* PlayStation Plus / Now */
 .playplus_main_wrapper{
     background-color: #bebcbb;
 }
-.common_plus_now_box{
-    padding: 3rem 0;
-}
-
-/* Discounts */
-.discounts_main_wrapper p{
-    font-size: 22px;
-}
-
-/* PlayStation Now */
 .playnow_main_wrapper{
     background-color: #161c3b;
+}
+.common_plus_now_box{
+    padding: 3rem 0;
 }
 
 
@@ -225,8 +215,6 @@ main{
 footer{
     background-color: #00439c;
 }
-
-
 
 /* Country/Logo */
 .footer_logo_1{
@@ -257,7 +245,6 @@ footer ul a:hover{
 .sie_logo{
     width: 140px;
 }
-
 
 
 /* HOVER */
