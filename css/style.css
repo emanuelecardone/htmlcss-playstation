@@ -181,7 +181,7 @@ main{
 /* Console */
 .console_deselected_img_box img{
     opacity: .7;
-} /* Cercato di dare l'effetto "deselezionato" come da screenshot */
+} /* Per dare l'effetto "deselezionato" come da screenshot */
 
 
 /* Second Jumbotron */
@@ -200,6 +200,11 @@ main{
 .new_videogames_main_wrapper .card-img-top{
     border-radius: 20px;
 }
+
+/* Explore */
+.explore_mark{
+    vertical-align: .8rem;
+} /* Dovuto rendere il simbolo più piccolo e allinearlo in alto, in display risultava gigante da qualsiasi fonte lo copiassi */
 
 /* PlayStation Plus / Now */
 .playplus_main_wrapper{
