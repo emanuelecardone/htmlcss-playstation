@@ -45,15 +45,6 @@ h6{
 .fs_20{
     font-size: 20px;
 }  
-.no_background{
-    background: none;
-}
-.no_border{
-    border: none;
-}
-.no_opacity{
-    opacity: 0;
-}
 .card-body{
     padding-left: 0;
 }
@@ -172,6 +163,9 @@ main{
 }
 .images_wrapper img{
     border-radius: 20px;
+    position: relative;
+    bottom: 0;
+    transition: .2s;
     cursor: pointer;
 }
 .images_wrapper img:not(.img-thumbnail){
@@ -270,7 +264,6 @@ footer ul a{
 
 /* Hover images */
 .images_wrapper img:hover{
-    position: relative;
     bottom: .3rem;
 }
 
